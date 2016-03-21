@@ -3,12 +3,22 @@ body{
     font-size:16px;
 }
 .menuSite{
+<<<<<<< HEAD
     background-color: transparent;
+=======
+    background-color:#000;
+    background-color: rgba(0,0,0,0.3);
+>>>>>>> gh-pages
     box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-webkit-box-shadow:0px 0px 0px transparent;
 }
 .home{
     width: 100%;
     background-image: url('../img/picjumbo.com_HNCK1218.png');
+<<<<<<< HEAD
+=======
+    background-repeat: no-repeat;
+    background-position:center;
+>>>>>>> gh-pages
     background-size: cover;
 }
 .logo{
@@ -20,6 +30,7 @@ body{
 .tituloPg1{
     color: #ffffff;
     text-align:center;
+<<<<<<< HEAD
     margin-top:2em;
     padding:0 15px;
 }
@@ -40,3 +51,72 @@ body{
     position:relative;
     padding: 10px;
 }
+=======
+    margin-top:3rem;
+    padding:0 15px;
+    font-size:4em;
+}
+.sobre{
+    height: 100%;
+    background-color:#002b36;
+}
+.tituloSobre,.tituloHabil{
+    margin:0px;
+    padding-top:75px;
+    color:#242526;
+    text-align:center;
+    color:#fff;
+}
+.linePerfil{padding: 1em;}
+.perfil{
+    height:350px;
+    margin: 0 auto;
+}
+.perfil p {color:#fff;}
+.redesSociais{color:#fff;}
+.parallax-container{
+    height: 300px;
+}
+.servicos{
+    height:100%;
+    background-color:#006882;
+}
+.cardHabil{
+    width:100%;
+    height: 100%;
+}
+.cardHabil h5,p{
+    color:#ffffff;
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio{
+    background-color: #277082;
+    height: 100%;
+}
+.cardHabil,.cardPort{
+    margin-top:4em;
+}
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: #002b36;
+}
+
+.mg1{
+    margin-top: 0.5em;
+}
+.float-right{
+  float: right;
+}
+img[src$='.svg']{
+  width: 32px;
+  height: 32px;
+  color: white;
+  fill: white;
+  box-shadow: inset 2px #333;
+}
+>>>>>>> gh-pages
