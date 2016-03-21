@@ -12,24 +12,26 @@
 <body>
     <section id="home" class="home">
         <header>
-                <div class="navbar-fixed">
-                    <nav class="menuSite">
-                        <div class="container-fluid">
-                            <a href="index.html#home" class="brand-logo logo ancora">John Doe</a>
-                            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                            <ul class="right hide-on-med-and-down">
-                                <li><a class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
-                                <li><a class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
-                                <li><a class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
-                            </ul>
-                            <ul class="side-nav" id="mobile-demo">
-                                <li><a  class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
-                                <li><a  class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
-                                <li><a  class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+            <div class="navbar-fixed">
+                <nav class="menuSite">
+                    <div class="container-fluid">
+                        <a href="index.html#home" class="brand-logo logo ancora">John Doe</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
+                            <li><a class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
+                            <li><a class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
+                            <li><a  class="ancora" href="index.html#contato">CONTATO</a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo">
+                            <li><a  class="ancora" href="index.html#sobre">QUEM SOU EU</a></li>
+                            <li><a  class="ancora" href="index.html#servicos">SERVIÇOS</a></li>
+                            <li><a  class="ancora" href="index.html#portfolio">PORTFÓLIO</a></li>
+                            <li><a  class="ancora" href="index.html#contato">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </header>
     </section>
     <section id="sobre" class="sobre">
@@ -114,9 +116,9 @@
             <div class="row">
                 <div class="col s12 m12 l12 strike">
                  	<span>
-                    <h4>PORTFOLIO  </h4>
-                  </span>
-		            </div>
+                        <h4>PORTFOLIO  </h4>
+                    </span>
+                </div>
             </div>
             <div class="row">
                 <div class="col s12 m4 l4">
@@ -212,6 +214,48 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12 strike">
+                 	<span>
+                        <h4>CONTATO</h4>
+                    </span>
+                </div>
+            </div>
+            <form method="post" action="">
+                <div class="row">
+                    <div class="col s12 m6 l6 input-field">
+                        <input id="first_name2" name="nome" type="text" class="validate grey-text text-lighten-3">
+                        <label class="active grey-text text-lighten-3" for="first_name2">Nome</label>
+                    </div>
+                    <div class="col s12 m6 l6 input-field grey-text text-lighten-3">
+                        <input id="last_name" type="text" name="sobrenome" class="validate grey-text text-lighten-3">
+                        <label for="last_name" class="grey-text text-lighten-3">Sobrenome</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12 input-field">
+                        <input id="email" type="email" name="email" class="validate grey-text text-lighten-3">
+                        <label for="email" class="grey-text text-lighten-3">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12 input-field">
+                        <textarea id="textarea1" name="mensagem" class="materialize-textarea grey-text text-lighten-3"></textarea>
+                        <label for="textarea1" class="grey-text text-lighten-3">Mensagem</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <button class="btn waves-effect waves-light img-center green darken-1" type="submit" name="action">Enviar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
     <footer class="page-footer">

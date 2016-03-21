@@ -35,4 +35,8 @@ footer.page-footer {margin-top: 0px;padding-top: 20px;background-color: #002b36;
 footer.page-footer{margin-top:0px;padding-top:20px;background-color:#002b36;}
 .mg1{margin-top:0.5em;}
 .drag-target {width: 0px;}
+.contato{height: 100%;background-image: url("../img/contato.png");background-repeat:no-repeat;background-position:center;background-size:cover;}
+div.input-field input[type=text]:focus {border-bottom: 1px solid #277082;box-shadow: 0 1px 0 0 #000;}
+div.input-field input[type=email]:focus{border-bottom: 1px solid #277082;box-shadow: 0 1px 0 0 #000;}
+#textarea1:focus{border-bottom: 1px solid #277082;box-shadow: 0 1px 0 0 #000;}
 
