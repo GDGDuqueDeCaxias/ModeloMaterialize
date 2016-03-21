@@ -19,3 +19,4 @@ body{line-height:25px;font-size:16px;}
 .cardHabil,.cardPort{margin-top:4em;}
 footer.page-footer{margin-top:0px;padding-top:20px;background-color:#002b36;}
 .mg1{margin-top:0.5em;}
+.drag-target {width: 0px;}
