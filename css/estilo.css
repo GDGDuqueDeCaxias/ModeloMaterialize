@@ -80,13 +80,13 @@ footer.page-footer {
 .mg1{
     margin-top: 0.5em;
 }
-.float-right{
+/*.float-right{
   float: right;
-}
-img[src$='.svg']{
+}*/
+/*img[src$='.svg']{
   width: 32px;
   height: 32px;
   color: white;
   fill: white;
   box-shadow: inset 2px #333;
-}
+}*/
